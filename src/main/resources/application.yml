@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: Spring-Boot
+  
+  security:
+    user:
+      name: test
+      password: test
+  
+  info:
+    app:
+      name: Spring-Boot_Learning_App
+      description: Just_for_Learning
+      version: 1.0.0
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include:*
+        exclude: 
+      
+  
+
+
